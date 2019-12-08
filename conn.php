@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","root","","absensi");
+$conn = mysqli_connect("localhost","root","","absensi");
 
 // Check connection
 if (mysqli_connect_errno()) {
